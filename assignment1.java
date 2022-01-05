@@ -18,7 +18,7 @@ class maths {
 		System.out.println("The mult = " + mult);
 
         div = num1 / num2;
-        System.out.println("The mult = " + div);
+        System.out.println("The div = " + div);
 	}
 
 }
