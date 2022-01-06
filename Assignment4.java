@@ -1,7 +1,7 @@
 package com.Assignment4;
 
 import java.util.Arrays;
-public class Arraysort
+public class Assignment4
 {
     public static void main(String[] args)
     {
