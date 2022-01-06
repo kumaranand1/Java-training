@@ -1,6 +1,6 @@
 package com.JAVAtraining;
 
-public class Largestarray {
+public class Assignment5 {
 
     {
         public static void main (String args[])
