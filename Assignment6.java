@@ -9,9 +9,6 @@ import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 import java.util.List;
 
-import static com.sun.tools.classfile.Attribute.Code;
-import static java.lang.System.out;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -20,10 +17,9 @@ public class Main {
         out.println("1: Process an order");
         out.println("2: View all orders");
         out.println("3: Exit");
-
-        lp:
-        while (true) // labeling the while loop
-        {
+        
+           while 
+             {
             out.print("Make your choice: ");
             ch = sc.nextInt(); // reading user's choice
             switch (ch) {
