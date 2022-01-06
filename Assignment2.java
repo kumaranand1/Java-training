@@ -1,7 +1,7 @@
 //create a java program that will find the largest of three numbers
 import java.io.*;
 
-class largestno {
+class Assignment2 {
 	public static void main(String[] args)
     {
         
