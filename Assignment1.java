@@ -1,6 +1,6 @@
 import java.io.*;
 
-class maths {
+class Assignment1 {
 	public static void main(String[] args)
 	{
 		int num1 = 30, num2 = 10, sum = 0, sub=0, mult=0,div=0;
