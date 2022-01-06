@@ -89,19 +89,19 @@ public class Main {
 
                       }
 
-                       class Order implements Serializable {
+                            class Order implements Serializable {
 
-                              private int OrderId;
-                              private String Customer;
-                              private List<Item> Items;
-                              private double netTotal;
+                                       private int OrderId;
+                                            private String Customer;
+                                                  private List<Item> Items;
+                                                       private double netTotal;
 
                            public Order(int OrderId, String Customer, List<Item> Items) {
-                               this.OrderId = OrderId;
-                               this.Customer = Customer;
-                               this.Items = Items;
-                               this.netTotal = 0;
-                               for (Item item : Items) {
+                                   this.OrderId = OrderId;
+                                          this.Customer = Customer;
+                                           this.Items = Items;
+                                                this.netTotal = 0;
+                          for (Item item : Items) {
                                    netTotal += Item.getPrice();
                                }
                            }
